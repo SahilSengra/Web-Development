@@ -1,0 +1,82 @@
+:root {
+    color: #3d3d3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #D2DEF2;
+}
+.shiftR{
+    float: left;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border: 10px solid #3A7EE7;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+h1 {
+    color: #3A7EE7;
+    font-size: 3.125rem;
+}
+
+.intro h2 span {
+    color: #3A7EE7;
+}
+
+div.marks{
+    clear: both;
+}
+
+.marks h3 span {
+    color: red;
+}
+
+/* below are Class CSS */
+
+.main_content {
+    min-height: 500px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.intro li {
+    float: left;
+    margin-right: 10px;
+    background-color: #3D94FF;
+    border-radius: 25px;
+}
+
+.intro li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.intro li a:hover {
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+.intro li:last-child {
+    background-color: #B6B6B6;
+}
+
+.marks ul li a{
+    color:#3d3d3d;
+}

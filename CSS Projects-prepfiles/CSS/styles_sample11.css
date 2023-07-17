@@ -1,0 +1,34 @@
+body{
+    background-color:#E4D6CD;
+    margin:0;
+  }
+  .main{
+    width:600px;
+    height:600px;
+    background-color:pink;
+    position:relative;
+  }
+  .red{
+    width:200px;
+    height:200px;
+    background-color:#F44336;
+    position:absolute;
+    top:200px;
+    left:200px;
+  }
+  
+  .blue{
+    width:200px;
+    height:200px;
+    background-color:#3A7EE7;
+    position:absolute;
+    top:400px;
+    left:400px;
+  
+  }
+  .green{
+    width:200px;
+    height:200px;
+    background-color:#00C5B4;
+    position:absolute;
+  }

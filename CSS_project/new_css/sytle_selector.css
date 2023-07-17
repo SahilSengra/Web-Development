@@ -1,0 +1,64 @@
+img {
+    background-color: aqua;
+    border: 1;
+    border-radius: 10px;
+}
+
+.animal {
+    border: 3;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+}
+
+#kutta {
+    border-style: double;
+}
+
+img:hover {
+    transform: scale(0.9);
+    transition: all 1s ease-in-out;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+:root {
+    font-size: 16px;
+}
+
+.main_content{
+    min-height: 500px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+
+li{
+    float: left;
+    margin-right: 45px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+
+    
+}
+li a{
+    display:flow-root;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    transform:scale(0.9);
+    transition: ease-in;
+}

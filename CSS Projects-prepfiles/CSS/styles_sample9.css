@@ -1,0 +1,16 @@
+p{
+    background-color: red;
+    width: 400px;
+    display: inline-block;
+}
+
+span{
+    background-color: yellow;
+    width: 400px;
+    display: block;
+    margin-top: 10px;
+}
+
+h1{
+    display: none;
+}

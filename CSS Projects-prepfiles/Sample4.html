@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .marvel {
+            background-color: red;
+        }
+
+        .dc {
+            background-color: black;
+        }
+
+        
+        .superhero img {
+            border: 10px solid #3A7EE7;
+            border-radius: 50%;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
+
+        img{
+            width: 300px;
+            height: auto;
+        }
+
+        img:hover{
+            /* increases the size by 10% */
+            transform: scale(0.9);
+            transition: all 2s linear; 
+        }
+
+        #superman{
+            width: 600px;
+            height: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="superhero">
+        <img id = "superman" class="dc " src="Images/superman.png">
+        <img class="dc" src="Images/batman.png">
+        <img class="marvel" src="Images/ironman.png">
+        <img class="marvel" src="Images/captain_america.png">
+    </div>
+
+    <img src="Images/prepinsta_logo.png">
+
+</body>
+
+</html>

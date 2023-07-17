@@ -1,0 +1,33 @@
+body {
+    background-color: #D2DEF2;
+    text-align: center;
+}
+
+img.skillsimg {
+    width: 100px;
+    height: auto;
+}
+
+p, h2{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.imagesset{
+    width:700px;
+    margin:100px auto;
+    position: relative;
+}
+
+.langimg{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    bottom: 150px;
+}
+
+
+.bubbleimg{
+    width: 100%;
+    height: auto;
+}
