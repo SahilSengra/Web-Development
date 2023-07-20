@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .voilet {background-color: violet;}
+        .indigo {background-color: indigo;}
+        .blue {background-color: blue;}
+        .green {background-color: green;}
+        .yellow {background-color: yellow;}
+        .orange {background-color: orange;}
+        .red {background-color: red;}
+
+        body{
+            color: white;
+        }
+        .container{      
+            border: 5px solid #32c888;
+            display:flex;
+        }
+
+        .container > div{
+            /* flex-basis: 100px; */
+            /* flex grow by default is turned off (flex-grow: 0;) */
+            /* flex-grow: 1; */
+
+            /* flex shring by default is turned on (flex-grow: 0;) */
+            /* flex-shrink: 0; */
+
+            /* this when 1 (turned on) will allow items to grow and shrink both
+            and when 0 (turned off) will not allow items to grow or shrink */
+            /* flex:1; */
+            /* (grow) (shrink) (flex basis) */
+            flex: 0 1 100px;
+            padding: 20px 0;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="voilet">Voilet</div>
+        <div class="indigo">Indigo</div>
+        <div class="blue">Blue</div>
+        <div class="green">Green</div>
+        <div class="yellow">Yellow</div>
+        <div class="orange">Orange</div>
+        <div class="red">Red</div>
+
+    </div>
+</body>
+
+</html>
